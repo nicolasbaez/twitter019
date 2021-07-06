@@ -18,7 +18,5 @@ void draw() {
     line(i, o, i+100, map(sin(radians(i/2+k))+cos(radians(2*i+k)), -2, 2, 500, m));
   }
   k+=9;
-  if(k<=720){
-  saveFrame("gif/twitter019-######.png");}
 }
 ```
